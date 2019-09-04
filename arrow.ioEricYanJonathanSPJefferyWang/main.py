@@ -107,7 +107,8 @@ class Player(pygame.sprite.Sprite):
             self.state = "aiming"
             self.past_state = "walking"
             self.previous_mouse = 1
-        elif mouse_pressed[0] == 0 and self.previous_mouse == 1 or mouse_pressed[0] == 0 and self.cooled is False and self.state != "dead":
+        elif mouse_pressed[0] == 0 and self.previous_mouse == 1 or mouse_pressed[
+            0] == 0 and self.cooled is False and self.state != "dead":
             self.state = "fired_shot"
             self.past_state = "aiming"
             self.previous_mouse = 0
@@ -141,7 +142,7 @@ class Player(pygame.sprite.Sprite):
         if self.projectile_collision():
             self.state = "hit"
             self.hp -= enemy[0].damage
-        if self.hp <= 0 and self.state != "dead":   # when the player just died
+        if self.hp <= 0 and self.state != "dead":  # when the player just died
             self.past_state = "hit"
             self.state = "dead"
             self.dead()
@@ -757,21 +758,19 @@ class Info():  # The area on the right that contains the player stats, arrow men
         self.army = pygame.image.load('data/image/skins/army/aiming_0.png')
         self.tiger = pygame.image.load('data/image/skins/tiger/aiming_0.png')
         self.ghost = pygame.image.load('data/image/skins/ghost/aiming_0.png')
-        
+
         self.BlackUnlock = False
         self.DesertUnlock = False
         self.ArmyUnlock = False
         self.TigerUnlock = False
         self.GhostUnlock = False
-        
 
-        self.Clicker1 = False 
-        self.Clicker2 = False  
+        self.Clicker1 = False
+        self.Clicker2 = False
         self.ClickProfile = True
         self.ClickShop = False
         self.DisabledProfile = 0
         self.DisabledShop = 0
-        
 
     def ratio(self):
         # Calculates the kill/death ratio of the player
@@ -858,11 +857,11 @@ class Info():  # The area on the right that contains the player stats, arrow men
         mx, my = pygame.mouse.get_pos()
         # Checks if mouse position is above the default skin icon, being clicked, and if it has been purchased yet
         if (1070 - mx) in range(0, 41) and (482 - my) in range(-63, 0) and pygame.mouse.get_pressed() == (
-        1, 0, 0) and self.ClickShop == True:
+                1, 0, 0) and self.ClickShop == True:
             player.skin = "default"  # default, black, tiger, army, desert, ghost
             player.import_image()
         if (1113 - mx) in range(0, 41) and (482 - my) in range(-63, 0) and pygame.mouse.get_pressed() == (
-        1, 0, 0) and self.ClickShop == True:
+                1, 0, 0) and self.ClickShop == True:
             if self.BlackUnlock == False and player.coins >= 1:
                 self.BlackUnlock = True
                 player.coins -= 1
@@ -870,7 +869,7 @@ class Info():  # The area on the right that contains the player stats, arrow men
                 player.skin = "black"
                 player.import_image()
         if (1070 - mx) in range(0, 41) and (625 - my) in range(0, 63) and pygame.mouse.get_pressed() == (
-        1, 0, 0) and self.ClickShop == True:
+                1, 0, 0) and self.ClickShop == True:
             if self.DesertUnlock == False and player.coins >= 5:
                 self.DesertUnlock = True
                 player.coins -= 5
@@ -878,7 +877,7 @@ class Info():  # The area on the right that contains the player stats, arrow men
                 player.skin = "desert"
                 player.import_image()
         if (1113 - mx) in range(0, 41) and (625 - my) in range(0, 63) and pygame.mouse.get_pressed() == (
-        1, 0, 0) and self.ClickShop == True:
+                1, 0, 0) and self.ClickShop == True:
             if self.ArmyUnlock == False and player.coins >= 10:
                 self.ArmyUnlock = True
                 player.coins -= 10
@@ -886,7 +885,7 @@ class Info():  # The area on the right that contains the player stats, arrow men
                 player.skin = "army"
                 player.import_image()
         if (1070 - mx) in range(0, 41) and (706 - my) in range(0, 63) and pygame.mouse.get_pressed() == (
-        1, 0, 0) and self.ClickShop == True:
+                1, 0, 0) and self.ClickShop == True:
             if self.TigerUnlock == False and player.coins >= 25:
                 self.TigerUnlock = True
                 player.coins -= 25
@@ -894,7 +893,7 @@ class Info():  # The area on the right that contains the player stats, arrow men
                 player.skin = "tiger"
                 player.import_image()
         if (1113 - mx) in range(0, 41) and (706 - my) in range(0, 63) and pygame.mouse.get_pressed() == (
-        1, 0, 0) and self.ClickShop == True:
+                1, 0, 0) and self.ClickShop == True:
             if self.GhostUnlock == False and player.coins >= 50:
                 self.GhostUnlock = True
                 player.coins -= 50
@@ -961,7 +960,7 @@ class Info():  # The area on the right that contains the player stats, arrow men
         mx, my = pygame.mouse.get_pos()
         # Check if mouse position is above the Profile icon, being clicked, and not visible
         if (1028 - mx) in range(-41, 0) and (45 - my) in range(-42, 0) and pygame.mouse.get_pressed() == (
-        1, 0, 0) and self.DisabledProfile == False:
+                1, 0, 0) and self.DisabledProfile == False:
             if self.ClickProfile == False:
                 self.ClickShop = False
                 self.DisabledShop = False
@@ -970,7 +969,7 @@ class Info():  # The area on the right that contains the player stats, arrow men
                 self.DisabledProfile = True
         # Check if mouse position is above the Shop icon, being clicked, and not visible
         if (1070 - mx) in range(-41, 0) and (45 - my) in range(-42, 0) and pygame.mouse.get_pressed() == (
-        1, 0, 0) and self.DisabledShop == False:
+                1, 0, 0) and self.DisabledShop == False:
             if self.ClickShop == False:
                 self.ClickProfile = False
                 self.DisabledProfile = False
@@ -1011,6 +1010,7 @@ class Info():  # The area on the right that contains the player stats, arrow men
         self.LVL()
         self.icon_clicks()
         self.purchase()
+
 
 class Sound():
     def __init__(self):
@@ -1105,7 +1105,6 @@ info = Info()
 # Display
 display = Display()
 
-
 """Game States"""
 # Preload images for different states of the game e.g. start_screen, how to play etc.
 Starting_Screen = pygame.image.load("data/image/Intro_screen.png").convert()
@@ -1134,6 +1133,7 @@ def all_update():  # All the necessary updates when the game is running
     info.update()  # Update info class object
     all_object_group.draw(screen)
 
+
 while rungame:  # Main game loop
     """All user inputs"""
     for event in pygame.event.get():
@@ -1155,4 +1155,3 @@ while rungame:  # Main game loop
 
     pygame.display.update()
     clock.tick(fps)
-

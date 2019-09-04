@@ -3,7 +3,7 @@ Inspired by the website below. Graph class, covert_image_to_graph created by Eri
 https://www.redblobgames.com/pathfinding/a-star/introduction.html
 """
 import Queue
-import Image
+from PIL import Image
 
 
 BLACK = (0, 0, 0)

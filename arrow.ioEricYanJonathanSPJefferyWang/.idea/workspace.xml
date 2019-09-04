@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ab95f3a-2836-4e64-9eee-0c1d1de7759f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PIL/BdfFontFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/BlpImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/BmpImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/BufrStubImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ContainerIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/CurImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/DcxImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/DdsImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/EpsImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ExifTags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/FitsStubImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/FliImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/FontFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/FpxImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/FtexImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/GbrImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/GdImageFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/GifImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/GimpGradientFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/GimpPaletteFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/GribStubImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/Hdf5StubImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/IcnsImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/IcoImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/Image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageChops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageCms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageColor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageDraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageDraw2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageEnhance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageFilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageFont.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageGrab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageMath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageMode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageMorph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageOps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImagePalette.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImagePath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageQt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageSequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageShow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageStat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageTk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageTransform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImageWin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/ImtImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/IptcImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/Jpeg2KImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/JpegImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/JpegPresets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/McIdasImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/MicImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/MpegImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/MpoImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/MspImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PSDraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PaletteFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PalmImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PcdImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PcfFontFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PcxImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PdfImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PdfParser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PixarImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PngImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PpmImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PsdImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/PyAccess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/SgiImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/SpiderImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/SunImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/TarIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/TgaImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/TiffImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/TiffTags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/WalImageFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/WebPImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/WmfImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/XVThumbImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/XbmImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/XpmImagePlugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/_binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/_imaging.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/_imagingcms.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/_imagingft.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/_imagingmath.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/_imagingmorph.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/_imagingtk.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/_tkinter_finder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/_webp.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PIL/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/SDL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/SDL_image.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/SDL_mixer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/SDL_ttf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/_camera_opencv_highgui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/_camera_vidcapture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/_dummybackend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/_freetype.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/_numpysndarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/_numpysurfarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/base.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/bufferproxy.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/cdrom.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/color.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/colordict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/constants.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/cursors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/display.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/docs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/docs/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/docs/logos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/docs/pygame_logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/docs/pygame_powered.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/docs/pygame_small.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/docs/pygame_tiny.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/docs/ref/docscomments.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/draw.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/draw_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/event.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/aacircle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/aliens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/arraydemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/audiocapture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/blend_fill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/blit_blends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/chimp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/cursors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/alien1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/alien1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/alien1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/alien2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/alien2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/alien3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/alien3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/arraydemo.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/asprite.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/background.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/blue.mpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/bomb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/boom.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/brick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/car_door.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/chimp.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/danger.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/explosion1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/fist.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/house_lo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/house_lo.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/house_lo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/liquid.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/midikeys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/oldplayer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/player1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/punch.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/sans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/secosmic_lo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/shot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/static.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/whiff.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/data/yuv_1.pgm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/dropevent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/eventlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/fastevents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/fonty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/freetype_misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/glcube.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/headless_no_windows_needed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/liquid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/JavaCompiling.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/_MainMenu_EOArchive_English.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/classes.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/info.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/macosx/aliens_app_example/English.lproj/MainMenu.nib/keyedobjects.nib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/macosx/aliens_app_example/English.lproj/aliens.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/macosx/aliens_app_example/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/macosx/aliens_app_example/aliens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/macosx/aliens_app_example/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/macosx/macfont.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/mask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/midi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/moveit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/oldalien.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/overlay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/pixelarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/playmus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/prevent_display_stretching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/scaletest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/scrap_clipboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/scroll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/sound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/sound_array_demos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/stars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/testsprite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/textinput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/vgrade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/examples/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/fastevent.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/font.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/freesansbold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/freetype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/ftfont.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/gfxdraw.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/image.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/imageext.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/joystick.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/key.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/libfreetype-6.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/libgcc_s_sjlj-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/libjpeg-8.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/libmpg123-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/libogg-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/libpng16-16.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/libstdc++-6.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/libtiff-5.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/libvorbis-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/libvorbisfile-3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/libwebp-5.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/locals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/macosx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/mask.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/math.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/midi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/mixer.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/mixer_music.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/mouse.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/newbuffer.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/overlay.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/pixelarray.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/pixelcopy.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/pkgdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/portmidi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/pygame.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/pygame_icon.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/pygame_icon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/pygame_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/pygame_icon.tiff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/pypm.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/rect.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/rwobject.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/scrap.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/sndarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/sprite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/surface.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/surfarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/surflock.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/sysfont.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/base_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/blit_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/bufferproxy_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/camera_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/cdrom_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/cdrom_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/color_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/compat_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/constants_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/cursors_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/display_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/draw_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/event_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/fastevent_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/fastevent_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/fixtures/fonts/A_PyGameMono-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/fixtures/fonts/PyGameMono-18-100dpi.bdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/fixtures/fonts/PyGameMono-18-75dpi.bdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/fixtures/fonts/PyGameMono-8.bdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/fixtures/fonts/PyGameMono.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/fixtures/fonts/test_fixed.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/fixtures/fonts/test_sans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/fixtures/fonts/u13079_PyGameMono-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/fixtures/xbm_cursors/white_sizing.xbm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/fixtures/xbm_cursors/white_sizing_mask.xbm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/font_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/font_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/freetype_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/freetype_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/ftfont_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/ftfont_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/gfxdraw_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/image__save_gl_surface_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/image_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/image_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/imageext_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/imageext_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/joystick_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/key_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/mask_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/math_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/midi_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/midi_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/mixer_music_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/mixer_music_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/mixer_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/mixer_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/mouse_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/overlay_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/overlay_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/pixelarray_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/pixelcopy_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/rect_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/all_ok/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/all_ok/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/all_ok/fake_3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/all_ok/fake_4_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/all_ok/fake_5_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/all_ok/fake_6_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/all_ok/no_assertions__ret_code_of_1__test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/all_ok/zero_tests_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/everything/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/everything/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/everything/incomplete_todo_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/everything/magic_tag_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/everything/sleep_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/exclude/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/exclude/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/exclude/invisible_tag_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/exclude/magic_tag_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/failures1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/failures1/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/failures1/fake_3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/failures1/fake_4_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/incomplete/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/incomplete/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/incomplete/fake_3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/incomplete_todo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/incomplete_todo/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/incomplete_todo/fake_3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/infinite_loop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/infinite_loop/fake_1_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/infinite_loop/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/print_stderr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/print_stderr/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/print_stderr/fake_3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/print_stderr/fake_4_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/print_stdout/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/print_stdout/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/print_stdout/fake_3_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/print_stdout/fake_4_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/run_tests__test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/timeout/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/timeout/fake_2_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/run_tests__tests/timeout/sleep_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/rwobject_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/scrap_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/scrap_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/sndarray_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/sndarray_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/sprite_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/surface_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/surfarray_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/surfarray_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/surflock_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/sysfont_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/test_test_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/test_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/test_utils/arrinter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/test_utils/async_sub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/test_utils/buftools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/test_utils/endian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/test_utils/png.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/test_utils/run_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/test_utils/test_machinery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/test_utils/test_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/threads_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/time_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/touch_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/touch_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/transform_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/tests/version_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/threads/Py25Queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/threads/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/time.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/transform.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pygame/zlib1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/arrow.ioEricYanJonathanSPJefferyWang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/arrow.ioEricYanJonathanSPJefferyWang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astar.py" beforeDir="false" afterPath="$PROJECT_DIR$/astar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="arrow.ioEricYanJonathanSPJefferyWang" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/astar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/astar.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="arrow.ioEricYanJonathanSPJefferyWang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arrow.ioEricYanJonathanSPJefferyWang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arrow.ioEricYanJonathanSPJefferyWang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arrow.ioEricYanJonathanSPJefferyWang" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arrow.ioEricYanJonathanSPJefferyWang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\Arrows\arrow.ioEricYanJonathanSPJefferyWang" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="arrow.ioEricYanJonathanSPJefferyWang" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ab95f3a-2836-4e64-9eee-0c1d1de7759f" name="Default Changelist" comment="" />
+      <created>1567575107584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567575107584</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="20" width="1260" height="640" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.24938676" />
+      <window_info id="Structure" order="1" sideWeight="0.5014663" side_tool="true" weight="0.24938676" />
+      <window_info id="Favorites" order="2" sideWeight="0.5014663" side_tool="true" weight="0.24938676" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32874015" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32874015" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PIL/_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
